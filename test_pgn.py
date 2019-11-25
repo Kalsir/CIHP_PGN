@@ -21,7 +21,7 @@ LIST_PATH = './datasets/CIHP/list/val.txt'
 DATA_ID_LIST = './datasets/CIHP/list/val_id.txt'
 with open(DATA_ID_LIST, 'r') as f:
     NUM_STEPS = len(f.readlines()) 
-RESTORE_FROM = './checkpoint/CIHP_pgn'
+RESTORE_FROM = '../CIHP_pgn'
 
 def main():
     """Create the model and start the evaluation process."""
